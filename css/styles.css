@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Verdana';
+  src: url('../assets/fonts/Verdana/verdana.ttf') format('truetype');
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #EDECE9;
+  color: #775548;
+}
+
+.background-image {
+  background-image: url('../assets/img/background.webp');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center bottom;
+  height: 55vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.background-text {
+  margin-left: 16px;
+  color: white;
+  font-size: 62px;
+  margin-bottom: 70px;
+}
+
+.info-links {
+  color: #EF6D24;
+  font-size: 28px;
+}
+
+.info-links p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info-links a {
+  color: #EF6D24;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 70px;
+  color: #775548;
+  font-weight: bold;
+}
+
+h3 {
+  background-color: #775548;
+  color: #EDECE9;
+  font-size: 24px;
+}
+
+.alquileres-section ul li a {
+  color: #EF6D24;
+  font-weight: bold;
+}
+
+.diarios-section ul li a {
+  color: #EF6D24;
+  font-weight: bold;
+}
+
+.diarios-section ul li a.nacion-link {
+  color: #56B6D0;
+  font-weight: bold;
+}
+
+.elegirnos-heading {
+  color: #D8B03F;
+}
+
+.prosegur-link {
+  color: #EF6D24;
+  font-weight: bold;
+}
